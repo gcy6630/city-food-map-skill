@@ -14,6 +14,13 @@
 
 ## 2. 装到 AionUi（推荐）
 
+**懒人版（Windows）**：解压后进 `city-food-map` 目录，跑
+```powershell
+powershell -ExecutionPolicy Bypass -File .\install.ps1
+```
+它会自动找 AionUi 数据目录 → 复制技能 → 调 `aioncore` 注册 → 打印校验和密钥设置提示。
+不想用它，就按下面手动来（结果一样）。
+
 AionUi 的技能目录：
 ```
 <AionUi 数据目录>\skills\users\<你的用户ID>\<技能名>\

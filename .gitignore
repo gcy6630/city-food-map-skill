@@ -1,0 +1,17 @@
+# 密钥绝不能进仓库
+amap_key.txt
+github_token.txt
+token.txt
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# 运行产物
+node_modules/
+amap_profile/
+*.log
+_qr_poster*.html
+_v*.txt
+_u*.txt
